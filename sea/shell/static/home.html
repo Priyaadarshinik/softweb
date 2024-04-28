@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ThinkTech</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Garmond',Verdana, Geneva, Tahoma, sans-serif;
+                        }
+            .banner {
+                width: 100%;
+                height: 95vh ;
+                background-size: cover;
+                background-position: center;
+
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color:rgb(91, 11, 20);
+                font-size: 50px;
+                font-weight: 800;
+                letter-spacing: 3px;
+            }
+            span {
+                color: white;
+            }
+            form {
+                width: 300px;
+                height: 50px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.179);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder {
+                color: burlywood;
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color:black;
+                border-radius: 10px;
+                background:rgb(88, 2, 35);
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: whitesmoke;
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: grey;
+                background-color:rgb(88, 2, 35);
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 40px;
+            }
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .text h2 {
+                color: rgb(17, 1, 1);
+                font-weight: 800;
+                font-size: 45px;
+                letter-spacing: 3px;
+            }
+            .text h3{
+                color: rgb(31, 29, 22);
+                font-weight: 800;
+                font-size: 20px;
+                letter-spacing: 3px;
+            }
+            .text p {
+                color: whitesmoke;
+                text-transform: capitalize;
+                font-size: 30px;
+                margin-bottom: 30px;
+                word-spacing: 2px;
+                letter-spacing: 1px;
+            }
+            .login {
+                margin: 0px 10px;
+                border: 2px solid black;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color:black;
+                border-radius: 30px;
+                background-color: grey;
+                text-decoration: none;
+            }
+            .login:hover {
+                border: 2px solid rgb(255, 0, 102);
+                color: grey;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .box-1 {
+                height: 200px;
+                width: 400px;
+                border: 3px solid white;
+                border-radius: 20px;
+                background: transparent;
+                position: relative;
+                left: 260px;
+                text-align:"right";
+            }
+            .signup {
+                margin: 0px 10px;
+                border: 2px solid black;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color:black;
+                border-radius: 30px;
+                background-color:  grey;
+                text-decoration: none;
+            }
+            .signup:hover {
+                border: 2px solid rgb(255, 0, 102);
+                color: grey;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            .join {
+                margin: 0px 10px;
+                border: 2px solid black;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color:black;
+                border-radius: 30px;
+                background-color:  grey;
+                text-decoration: none;
+            }
+            .join:hover {
+                border: 2px solid rgb(255, 0, 102);
+                color: grey;
+                background-color: black;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            .footer {
+                display: block;
+                width: 100%;
+                height: 25px;
+                background-color: #490221;
+                text-align: center;
+                padding-top: 5px;
+                margin: 0px 0px 0px 0px;
+                color: #e8e109;
+            }
+        </style>
+    </head>
+<body background="bgpic.png">
+    <div class="banner">
+        <div class="navbar">
+            <img src="icon.png" width="100" height="100">
+            <h1 class="logo">Think<span>Tech</span></h1>
+
+            <form action="" method="get">
+                <input class="placeholder" type="search" name="" placeholder="Type to search">
+                <button type="submit"> Search </button>
+            </form>
+            <br>
+            <ul>
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="Products.html"> Products </a></li>
+                <li><a href="executives.html"> Executives </a></li>
+                <li><a href="contacts.html"> Contact Us </a></li>
+            </ul>
+        </div>
+        <h3><center>"Continous improvement is better than delayed perfection"</center></p>
+        <p><center> ~ Mark Twain</center></p><br>
+        <hr width="100%;" color="whitesmoke" size="5">
+        <body>
+                <br>
+                <img src="aniimg.jpeg" alt="coder" align="right" width="450">
+        </body>
+        <div class="content">
+            <br>
+            <div class="text">
+                <br><br>
+                <h2 ><br><br>Think beyond code your way</h2>
+                <br>
+                <p>Navigating thorugh the window of your coding and thinking skill</p><br>
+                <h3>About ThinkTech<br>
+                    ThinkTech is an emerging plateform to thrive your coding skills by opting our unrivalled courses. So why wait??
+                </h3>
+                <br>
+                
+                <div class="box-1"> 
+                    <h4><br>To explore our products</h4>
+                    <br>
+                    <p>JOIN US</p>
+                    <a href="#" class="signup"> <b>Sign Up</b> </a>
+                    <a href="#" class="login"> <b>Log In </b></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="footer">
+        <p>Copyright@2024 Developed by Priyaadarshini K (212223240126)</p>
+    </footer>
+</body>
+</html>
